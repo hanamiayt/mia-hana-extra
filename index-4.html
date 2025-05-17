@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hana & Mia Links and Extra</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #ffd6f6, #e0f7ff);
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+    header {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #ff4dc8;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: #ff8cc6;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #ff4dc8;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .yt-sparkle {
+      margin-top: 3rem;
+      font-size: 1.3rem;
+      font-weight: 600;
+      animation: popIn 1s ease-out;
+    }
+
+    .yt-sparkle a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #ff0000;
+      padding: 0.7rem 1.5rem;
+      border: 2px solid #ff4dc8;
+      border-radius: 30px;
+      background: radial-gradient(circle, #fff0f6, #ffe6f9);
+      box-shadow: 0 0 10px #ff8cc6;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .yt-sparkle a:hover {
+      background: #ff4dc8;
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #ff4dc8, 0 0 25px #ff1493;
+    }
+
+    .yt-sparkle img {
+      width: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .yt-sparkle a:hover img {
+      transform: rotate(8deg) scale(1.1);
+    }
+
+    @keyframes popIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>Hana & Mia Links and Extra 🌈✨</header>
+  <p>Here are all our socials + extra bits so you can see more of us!</p>
+  <a class="button" href="#" onclick="alert('Coming soon! Subscribe or else 😈')">Watch Our First Video</a>
+
+  <div class="yt-sparkle">
+    <a href="https://www.youtube.com/@hanaandmiaa" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube icon" width="30" />
+      Subscribe to us on YouTube!
+    </a>
+  </div>
+
+  <footer>
+    <p>By Mia (coded) + Hana (just there)</p>
+  </footer>
+</body>
+</html>
